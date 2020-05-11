@@ -15,10 +15,6 @@ public class CTHD {
     String SP, SL, donGia, chietKhau;
     ArrayList<CTHD> dsCTHD = new ArrayList<>();
 
-    public ArrayList<CTHD> getDsCTHD() {
-        return dsCTHD;
-    }
-
     protected CTHD(Builder builder) {
         this.dsCTHD = builder.dsCTHD;
         this.SP = builder.SP;
