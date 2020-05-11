@@ -12,9 +12,9 @@ package baitap2;
 public class BT2_Main {
     public static void main(String[] args) {
         MyStringBuilder chuoi = new MyStringBuilder.StringBuilder()
-            .addStr("Nguyen Nam Duong")
-            .addS("5/5/2020")
-            .addF(Float.valueOf(53))
+            .addStr("Nguyen Nam Duong ")
+            .addS("59CNTT2 ")
+            .addF(15.5f)
             .addB(true)
             .build();
     

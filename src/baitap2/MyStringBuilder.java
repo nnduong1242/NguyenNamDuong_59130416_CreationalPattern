@@ -23,7 +23,7 @@ public class MyStringBuilder {
 
     @Override
     public String toString() {
-        return "MyStringBuilder{" + "str=" + str + ", s=" + s + ", f=" + f + ", b=" + b + '}';
+        return "str=" + str;
     }
 
     public static class StringBuilder{
@@ -40,15 +40,15 @@ public class MyStringBuilder {
             return this;
         }
         public StringBuilder addS(String s){
-            this.s=s;
+            this.str = str.concat(s);
             return this;
         }
         public StringBuilder addF(Float f){
-            this.f=f;
+            this.str=str.concat(f.toString());
             return this;
         }
         public StringBuilder addB(Boolean b){
-            this.b=b;
+            this.str=str.concat(b.toString());
             return this;
         }
         
